@@ -1,5 +1,6 @@
 class MathSamples:
-	def fibonacci(self, n):
+	@staticmethod
+	def fibonacci(n):
 		if(n == 0):
 			return 0
 		return 1;
